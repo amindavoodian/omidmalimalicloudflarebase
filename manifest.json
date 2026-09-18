@@ -1,0 +1,48 @@
+{
+  "id": "./",
+  "name": "مدیریت مالی امید",
+  "short_name": "مالی امید",
+  "description": "سامانه مدیریت مالی و دستیار هوشمند ثبت تراکنش‌ها",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0284c7",
+  "dir": "rtl",
+  "lang": "fa",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "داشبورد تراکنش‌ها",
+      "short_name": "داشبورد",
+      "url": "./index.html",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "دستیار هوش مصنوعی",
+      "short_name": "چت‌بات",
+      "url": "./chatbot.html",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
